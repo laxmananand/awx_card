@@ -1,0 +1,127 @@
+.blink {
+  animation: blink-animation 0.5s steps(5, start) infinite;
+  -webkit-animation: blink-animation 0.5s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.google-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.flex-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-main-div {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid darkgray;
+  padding: 6px 12px 6px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  font-weight: 500;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.search-input:focus-visible {
+  outline: none;
+}
+
+.search-img {
+  padding: 6px;
+  background: var(--sea-70);
+  border-radius: 50%;
+}
+
+.arrange-modal-content {
+  display: flex;
+  flex-direction: column;
+  height: 525px;
+  flex: 1;
+}
+
+.corporate-list-div {
+  flex: 1; /* Take up available space */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  display: flex;
+  flex-direction: column;
+  justify-content: start; /* Center the list div */
+}
+
+.buttons-div {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .buttons-div button {
+    width: 100% !important;
+    height: 42px !important;
+    font-size: 15px !important;
+    border-radius: 15px !important;
+    text-transform: uppercase !important;
+    margin-top: 25px !important;
+  }
+}
+
+.corporate-list {
+  padding: 1.5rem;
+  border-top: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+  font-size: 15px;
+}
+
+.corporate-list img {
+  width: 20px;
+  height: 20px;
+}
+
+.corporate-list:hover {
+  background: rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.business-label-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.no-result-div {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.no-result-div img {
+  width: 77%;
+}

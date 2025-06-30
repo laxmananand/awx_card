@@ -1,0 +1,5 @@
+.custom-select {
+    border: none; /* Remove the border */
+    outline: none; /* Remove the focus outline (optional) */
+    width: 92%;
+}

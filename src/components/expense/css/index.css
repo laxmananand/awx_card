@@ -1,0 +1,103 @@
+.bg-yellow10 {
+  background-color: var(--accent-yellow-10) !important;
+}
+
+.bg-yellow100 {
+  background-color: var(--accent-yellow-100) !important;
+}
+
+.yellow10 {
+  color: var(--accent-yellow-10) !important;
+}
+
+.yellow100 {
+  color: var(--accent-yellow-100) !important;
+}
+
+.bg-green10 {
+  background-color: var(--accent-green-10) !important;
+}
+
+.bg-green100 {
+  background-color: var(--accent-green-100) !important;
+}
+
+.green10 {
+  color: var(--accent-green-10) !important;
+}
+
+.green100 {
+  color: var(--accent-green-100) !important;
+}
+
+.bg-blue10 {
+  background-color: var(--accent-blue-10) !important;
+}
+
+.bg-blue100 {
+  background-color: var(--accent-blue-100) !important;
+}
+
+.blue10 {
+  color: var(--accent-blue-10) !important;
+}
+
+.blue100 {
+  color: var(--accent-blue-100) !important;
+}
+
+.bg-green {
+  background-color: var(--accent-main-green-main-green) !important;
+}
+
+.grey {
+  color: var(--bw-gray-strokes) !important;
+}
+
+.bg-grey {
+  background-color: var(--bw-gray-strokes) !important;
+}
+
+
+button:disabled {
+  opacity: 100% !important;
+}
+
+.grey1 {
+  color: var(--bw-gray-secondary-elements) !important;
+}
+
+.bg-grey1 {
+  background-color: var(--bw-gray-secondary-elements) !important;
+}
+
+.bg-gainsboro {
+  background-color: var(--color-gainsboro);
+}
+
+.rounded-4 {
+  border-radius: 8px;
+}
+
+#sidebar li:hover button {
+  opacity: 70%;
+}
+
+.table-light {
+  --bs-table-bg: #FAFAFA!important;
+}
+
+.table>:not(caption)>*>* {
+  padding: 1.2rem 0.5rem;
+}
+
+td{
+  font-weight: 400;
+  text-wrap: nowrap;
+}
+
+th{
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+

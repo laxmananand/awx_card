@@ -1,0 +1,18 @@
+.business-desc {
+  border-radius: 15px;
+  height: 100px;
+  padding: 15px;
+  border: 2px solid lightgray;
+  color: grey;
+  font-weight: 500;
+}
+
+.business-desc::placeholder {
+  /* Your styles for the placeholder text */
+  color: #999; /* Example color */
+  font-style: italic; /* Example font style */
+}
+
+.business-desc:focus-visible {
+  outline: none;
+}

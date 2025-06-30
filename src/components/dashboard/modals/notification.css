@@ -1,0 +1,116 @@
+/* App.css */
+.notification-icon {
+  cursor: pointer;
+}
+
+.notification-container {
+  width: 25rem;
+  height: 32rem;
+  border-radius: 20px;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 5;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.notification-container::-webkit-scrollbar-thumb,
+.notification-container::-webkit-scrollbar-track {
+  display: none;
+}
+
+.pointer {
+  position: absolute;
+  top: -10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid grey;
+}
+
+.close-btn {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.notification-container ul {
+  list-style: none;
+  padding-left: 0;
+  height: 10rem;
+  display: grid;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.notification-container ul::-webkit-scrollbar-thumb,
+.notification-container ul::-webkit-scrollbar-track {
+  display: none;
+}
+
+.ul-1 {
+  background: #d3d3d36b;
+}
+
+.notification-container p {
+  margin-bottom: 5px;
+}
+
+.notification-container ul li {
+  border-top: 1px solid darkgrey;
+  border-bottom: 1px solid darkgray;
+  height: 5rem;
+}
+
+.see-more {
+  text-align: center;
+  text-decoration: underline;
+  color: var(--accent-main-green-main-green);
+}
+
+.see-more:hover {
+  color: #299e58;
+  cursor: pointer;
+}
+
+.list-main-div {
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  /* gap: 10px; */
+}
+
+.list-timestamp-div {
+  font-size: 10px;
+}
+
+.mark-as-read {
+  text-align: right;
+  font-size: 12px;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.mark-as-read span {
+  color: var(--accent-blue-100);
+  text-decoration: underline;
+}
+
+.mark-as-read span:hover {
+  cursor: pointer;
+  color: var(--accent-main-green-main-green);
+}
+
+.list-message-div {
+  width: 100%;
+  line-height: 1.2;
+  flex: 1;
+  margin-right: 6px;
+  margin-left: 10px;
+  font-size: 15px;
+}

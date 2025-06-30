@@ -1,0 +1,71 @@
+#collapsable_nav {
+    width: 110px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    transition: width 0.7s;
+    cursor: pointer;
+}
+
+
+#collapsable_nav li {
+    justify-content: center;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+#collapsable_nav:hover li {
+    justify-content: start;
+    padding: 10px 35px;
+}
+
+#collapsable_nav li:hover {
+    background-color: #FFFBA8;
+    /* transition: all 0.3s ease-in-out 0.1s; */
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+
+#collapsable_nav ul {
+    justify-content: start;
+    margin: auto;
+}
+
+
+#collapsable_nav:hover {
+    width: 266px;
+}
+
+@keyframes transition_navs {
+    0% {
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+#collapsable_nav:hover p {
+    margin-left: 10px !important;
+    display: block;
+    animation: transition_navs linear forwards;
+    animation-duration: 0.5s;
+}
+
+#collapsable_nav p {
+    display: none;
+    transition: display 0.4s;
+    transition-delay: 0.7s;
+}
+
+.nav-active {
+    background-color: #FFF62D!important;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}

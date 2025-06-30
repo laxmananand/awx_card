@@ -1,0 +1,42 @@
+#otpInput {
+    border: 2px solid #a19a9a;
+    border-radius: 5px;
+    background-color: #ded9d9;
+    padding: 10px;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center; /* Center align the content within the box */
+  }
+  
+  #otpInput h4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #otpInput input[type="text"] {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #a19a9a;
+    border-radius: 10px;
+  }
+  
+  #otpInput input[type="text"]:focus {
+    outline: none;
+    border-color: blue;
+  }
+  
+  
+  #otpInput #resendOtpBtn {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #otpInput #resendOtpBtn a {
+    color: blue;
+    cursor: pointer;
+  }
+  

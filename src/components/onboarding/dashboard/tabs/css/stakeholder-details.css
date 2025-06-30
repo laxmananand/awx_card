@@ -1,0 +1,187 @@
+.checkbox-wrapper-21 .control {
+  display: block;
+  position: relative;
+  padding-left: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.checkbox-wrapper-21 .control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.checkbox-wrapper-21 .control__indicator {
+  position: relative;
+  top: 1px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #e6e6e6;
+  border-radius: 5px;
+}
+.checkbox-wrapper-21 .control:hover input ~ .control__indicator,
+.checkbox-wrapper-21 .control input:focus ~ .control__indicator {
+  background: #ccc;
+}
+.checkbox-wrapper-21 .control input:checked ~ .control__indicator {
+  background: #2aa1c0;
+}
+.checkbox-wrapper-21
+  .control:hover
+  input:not([disabled]):checked
+  ~ .control__indicator,
+.checkbox-wrapper-21 .control input:checked:focus ~ .control__indicator {
+  background: #0e647d;
+}
+.checkbox-wrapper-21 .control input:disabled ~ .control__indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.checkbox-wrapper-21 .control__indicator:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkbox-wrapper-21 .control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.checkbox-wrapper-21 .control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.checkbox-wrapper-21
+  .control--checkbox
+  input:disabled
+  ~ .control__indicator:after {
+  border-color: #7b7b7b;
+}
+
+.add-more {
+  text-transform: capitalize;
+  font-size: medium;
+  margin: 0 auto;
+}
+
+.stakeholder-parent-div {
+  width: 100%;
+  padding: 25px;
+  border: 2px solid lightgrey;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px 0px;
+}
+
+.add-more-img {
+  cursor: pointer;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 2em;
+  margin-bottom: 0.5em;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.radio-label:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.radio-input {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio-input:checked + .radio-label {
+  background-color: var(--accent-blue-10);
+  border-color: var(--accent-blue-100);
+  color: var(--accent-blue-100);
+  font-weight: 600;
+}
+
+.radio-input:focus + .radio-label {
+  outline: 2px solid var(--accent-blue-100);
+}
+
+.radio-inner-circle {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border: 2px solid #888;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  transition: border-color 0.2s;
+  position: relative;
+}
+
+.radio-label:hover .radio-inner-circle {
+  border-color: #555;
+}
+
+.radio-input:checked + .radio-label .radio-inner-circle {
+  border-color: var(--accent-blue-100);
+}
+
+.radio-input:checked + .radio-label .radio-inner-circle::after {
+  content: "";
+  display: block;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: var(--accent-blue-100);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.expandable-button {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 40px; /* Initial width for icon-only state */
+  transition: width 0.3s ease, padding 0.3s ease;
+}
+
+.expandable-button:hover {
+  width: 235px; /* Expanded width when hovered */
+  padding: 8px 16px;
+  border-radius: 24px;
+  cursor: pointer !important;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  transition: opacity 0.3s ease;
+}
+
+.text {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.expandable-button:hover .text {
+  opacity: 1;
+}

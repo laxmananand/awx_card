@@ -1,0 +1,128 @@
+.addAccountButtonLoader{
+    position: relative;
+    width: 35px;
+    height: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.addAccountButtonText{
+        position: relative;
+        font-weight: 500;
+        font-family: "Maven Pro";
+        font-size: 18px;
+
+}
+
+#button-loader {
+    display: none;
+    margin-left: 45%;
+  }
+  
+#button-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35%;
+  }
+  
+#button-loaderTwo {
+    display: none;
+    margin-left: 45%;
+  }
+  
+#button-textTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35%;
+  }
+  
+  div.scroll {
+        /* background-color: #fed9ff; */
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        padding: 20px;
+      }
+
+  /* Add these CSS styles to your stylesheet */
+
+  #accountsCurrencyDropdown {
+    display: flex;
+    align-items: center;
+    width: auto;
+    max-width: 100%;
+    position: relative;
+    flex-shrink: 0;
+  }
+  
+  #accountsCurrencyDropdown .custom-select-container {
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+  }
+  
+  #accountsCurrencyDropdown .custom-select {
+    margin: 0;
+    position: relative;
+  }
+  
+  #accountsCurrencyDropdown select {
+    display: none;
+  }
+  
+  #accountsCurrencyDropdown .custom-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: white;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  #accountsCurrencyDropdown .custom-option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #accountsCurrencyDropdown .custom-select:hover .custom-options {
+    display: block;
+  }
+  
+  #accountsCurrencyDropdown .custom-option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Responsive tweak for smaller screens */
+  @media (max-width: 768px) {
+    #accountsCurrencyDropdown {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    #accountsCurrencyDropdown .custom-select-container {
+      max-width: 100%;
+    }
+  }
+  
+  .swal-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--main-color); /* Change the color as desired */
+    font-family: emoji !important;
+}
+.custom-swal-popup {
+  border-radius: 35px !important;  /* Adjust the value as desired */
+}
+
+#swal-textAccounts{
+  font-size: 18px;
+  font-weight: 700;
+}

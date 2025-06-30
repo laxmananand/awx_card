@@ -1,0 +1,113 @@
+.beneficiary-list {
+  max-height: 300px; /* Default height for larger screens */
+  overflow-y: auto; /* Make the div scrollable when content overflows */
+}
+
+/* Adjust height for smaller screens */
+@media (max-width: 768px) {
+  .beneficiary-list {
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .beneficiary-list {
+    max-height: 150px;
+  }
+}
+
+.accordion-button {
+  padding: 1rem !important;
+}
+
+.accordion,
+.accordion-item:last-of-type,
+.accordion-item:first-of-type .accordion-button.collapsed {
+  border-radius: 12px !important;
+  border-width: 2px !important;
+  border-color: lightgrey;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border: 2px solid lightgrey;
+  border-radius: 12px;
+}
+
+.accordion-button:focus {
+  border-color: white !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+}
+
+.accordion-body {
+  padding: 2rem !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+}
+
+.recipient-main .search-box {
+  width: 100%;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  border: 0;
+}
+
+.recipient-main .search-box:focus-visible {
+  outline: 0;
+}
+
+.you-send-input:focus-visible {
+  outline: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .recipient-main {
+    padding: 3.5rem 1.5rem !important;
+  }
+
+  .amount-main {
+    padding: 3.5rem 1.5rem !important;
+  }
+
+  .amount-box,
+  .additional-info-main {
+    padding: 1.5rem !important;
+  }
+
+  .amount-image {
+    display: none !important;
+  }
+
+  .amount-buttons {
+    justify-content: center !important;
+  }
+
+  .additional-info-box {
+    margin: 1rem 0 !important;
+  }
+  .review-container {
+    margin: 0 !important;
+    width: 95% !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 1.5rem !important;
+  }
+
+  .review-amount-box {
+    margin: 1rem 0 1rem 1rem !important;
+  }
+
+  .response-container {
+    margin: 0 !important;
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 1.5rem !important;
+  }
+}

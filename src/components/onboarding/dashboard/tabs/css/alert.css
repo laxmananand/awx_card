@@ -1,0 +1,23 @@
+.h5-custom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: math;
+  font-size: 24px;
+}
+
+.success {
+  color: #fff;
+  background-color: var(--accent-green-100);
+  border-color: var(--accent-green-10);
+}
+
+.success:hover {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.modal-body {
+  font-family: math;
+  padding: 1.75rem;
+}

@@ -1,0 +1,22 @@
+#button-loaderDownloadReceipt {
+    display: none;
+    align-items: center;
+  }
+  
+#button-textDownloadReceipt  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  #button-loaderUploadReceipt {
+    display: none;
+    align-items: center;
+  }
+  
+#button-textUploadReceipt  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

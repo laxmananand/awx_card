@@ -1,0 +1,152 @@
+.header-container ul {
+  list-style: none;
+  gap: 8rem;
+}
+
+.header-container ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.header-container ul li div {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+  background: white;
+  border: 3px solid rgb(35, 176, 232);
+  padding: 5px;
+}
+
+.header-container ul li div img {
+  vertical-align: baseline;
+}
+
+.header-container {
+  padding: 25px;
+}
+
+.header-container ul li::before {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 9.5%; /* Position the line vertically at the center of the li */
+  left: 51%; /* Start from the center of the li */
+  width: 76rem; /* Width of the line (100% - circle width) */
+  height: 4px; /* Height of the line */
+  background-color: #ccc; /* Color of the line */
+  z-index: -1; /* Ensure the line is behind the circle */
+  transform: translate(-50%, -50%); /* Adjust position to center the line */
+}
+
+.header-container ul li:last-child::before {
+  width: 0; /* Hide the line for the last li */
+}
+
+/* Add this class for the active step */
+.header-container ul li.active::before {
+  background-color: blue; /* Change color for the active step */
+}
+
+.personal-info {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.personal-info h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group small {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.date-inputs input {
+  width: 60px;
+  margin-right: 5px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.accordion-button:not(.collapsed) {
+  color: #0c63e4;
+  background-color: transparent;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+  border-top: 3px solid #0c63e4;
+  border-bottom: 0;
+  border-left: 1.5px solid lightgrey;
+  border-right: 1.5px solid lightgrey;
+}
+.accordion-button.collapsed {
+  color: black;
+  background-color: transparent;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+  border: 1.5px solid lightgrey !important;
+}
+
+.accordion-item {
+  margin: 20px;
+  box-shadow: 0 0 0 0;
+  border: 0 !important;
+  border-radius: 15px !important;
+}
+
+.accordion-body {
+  padding: 3rem;
+}
+
+.accordion-collapse {
+  border-top: 0 !important;
+  border-left: 1.5px solid lightgrey !important;
+  border-right: 1.5px solid lightgrey !important;
+  border-bottom: 1.5px solid lightgrey !important;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.onboarding-form-container {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.button-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.form-new {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

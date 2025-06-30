@@ -1,0 +1,61 @@
+/* Hide the default spin buttons */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.otp-container {
+  border-radius: 12px;
+  background-color: transparent;
+  width: 100%;
+  /* max-width: 500px;
+  padding: 50px 20px; */
+  text-align: center;
+}
+.otp-title {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+#otp-form,
+#otp-form2 {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.otp-otp-input,
+.otp-otp-input2 {
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  padding: 6px;
+  width: 100%;
+  max-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  outline: 2px solid lightgrey;
+  font-weight: 600;
+}
+.otp-otp-input:focus-visible,
+.otp-otp-input2:focus-visible {
+  outline: 2px solid black;
+}
+.otp-otp-input.otp-filled,
+.otp-otp-input2.otp-filled {
+  outline: 2px solid lightgrey;
+}
+
+#verify-btn {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 30px;
+  background: royalblue;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+}

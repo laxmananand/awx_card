@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Maven Pro', sans-serif;
+  color: var(--bw-black);
+  font-weight: 500;
+}
+
+
+:root {
+  /* / fonts / */
+  --font-maven-pro: "Maven Pro";
+  --font-kumbh-sans: "Kumbh Sans";
+
+  /* / font sizes / */
+  --font-size-base: 1rem;
+  --font-size-xl: 1.25rem;
+  --font-size-sm: 0.88rem;
+
+  /* / Colors / */
+  --bw-white-100: #fff;
+  --accent-yellow-100: #e0990c;
+  --accent-yellow-10: rgba(224, 153, 12, 0.1);
+  --bw-gray-secondary-elements: #8f9096;
+  --bw-black: #09212f;
+  --color-gray-100: rgba(255, 255, 255, 0.1);
+  --accent-main-green-main-green: #3b656b;
+  --accent-blue-100: #099cbc;
+  --accent-blue-10: rgba(9, 156, 188, 0.1);
+  --accent-green-100: #299e58;
+  --accent-green-10: rgba(41, 158, 88, 0.1);
+  --bw-gray-strokes: #e7ebef;
+  --color-gainsboro: rgba(219, 229, 230, 0.2);
+
+  /* / Gaps / */
+  --gap-xs: 0.75rem;
+  --gap-5xs: 0.5rem;
+  --gap-9xs: 0.25rem;
+  --gap-7xs: 0.38rem;
+  --gap-11xs: 0.13rem;
+  --gap-3xs: 0.63rem;
+  --gap-xl: 1.25rem;
+  --gap-21xl: 2.5rem;
+/* 
+  / Paddings / */
+  --padding-xs: 0.75rem;
+  --padding-xl: 1.25rem;
+  --padding-5xs: 0.5rem;
+  --padding-base: 1rem;
+  --padding-13xl: 2rem;
+  --padding-9xs: 0.25rem;
+
+  /* / border radiuses / */
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+}
+
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+.fw-500 {
+  font-weight: 500!important;
+}

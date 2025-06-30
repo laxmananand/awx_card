@@ -1,0 +1,359 @@
+.btn {
+  display: flex;
+  justify-content: center !important;
+}
+
+.illustration-icon {
+  align-self: stretch;
+  height: 468px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.transact-across-190countries {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1.5px;
+  line-height: 34px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  display: inline-block;
+  max-width: 100%;
+}
+.transact-across-190countries-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.benefit-from-local {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.illustration-parent,
+.inputs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputs {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+  font-size: var(--paragraph-m-bold-size);
+  color: #687379;
+}
+.illustration-parent {
+  width: 530px;
+  flex-direction: column;
+  gap: 12px;
+}
+.oval,
+.oval1,
+.oval2,
+.oval3 {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  border-radius: 50%;
+}
+.oval {
+  background-color: var(--general-black);
+}
+.oval1,
+.oval2,
+.oval3 {
+  border: 1.5px solid var(--general-black);
+  box-sizing: border-box;
+  opacity: 0.5;
+  mix-blend-mode: normal;
+}
+.slide-dots {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.features,
+.slide-dots-wrapper {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 50%;
+}
+.slide-dots-wrapper {
+  width: 531px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 1px 0 0;
+}
+.features {
+  flex: 1;
+  border-radius: var(--br-41xl);
+  background: linear-gradient(#e6eef4, #e6eef4), #fff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-xl) 118px;
+  gap: var(--gap-21xl);
+  min-height: 840px;
+  height: 100vh;
+}
+
+.zoqq-sign-up-1-1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.zoqq-sign-up-1-1 {
+  width: 100%;
+  position: relative;
+  background-color: #a9c0d1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--general-black);
+  font-family: var(--paragraph-m-bold);
+  min-height: 860px;
+  height: 102vh;
+}
+
+input::placeholder {
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+/* Override SweetAlert2 font styles */
+.swal2-popup {
+  font-family: "DM Sans", sans-serif !important; /* Set your custom font */
+  text-transform: capitalize;
+}
+
+.zoqq-mobile {
+  display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .zoqq-sign-up-1-1 {
+    display: none;
+  }
+
+  .icon1,
+  .icon2,
+  .icon3,
+  .icon4,
+  .icon5,
+  .icon6 {
+    display: none;
+  }
+
+  .zoqq-mobile {
+    display: flex !important;
+
+    .sign-up {
+      padding: 5rem 1.5rem;
+      width: 100%;
+
+      .frame-parent {
+        gap: 3.5rem;
+      }
+
+      .create-account-wrapper2 {
+        grid-gap: 2rem;
+
+        .welcome-message {
+          text-align: center;
+        }
+      }
+
+      .left-content {
+        width: 75%;
+      }
+
+      .inputs-parent,
+      .basic-components-control-ele-parent {
+        padding: 0 1.5rem;
+      }
+    }
+
+    .su-frame-parent {
+      padding: 0 1.5rem;
+    }
+
+    .su-create-account {
+      font-size: 2rem;
+    }
+
+    .ver-text-button-parent {
+      padding-top: 5rem;
+    }
+
+    .ver-we-have-sent-a-verification-co-parent {
+      gap: 3rem;
+    }
+
+    .ver-frame-wrapper {
+      padding-bottom: 5rem;
+    }
+
+    #otp-form,
+    #otp-form2 {
+      gap: 12px;
+    }
+
+    .otp-otp-input,
+    .otp-otp-input2 {
+      height: 45px;
+    }
+
+    .biz-sign-up {
+      max-width: 100%;
+      padding: 1.5rem;
+    }
+
+    .biz-business-details-parent {
+      gap: 2.5rem;
+    }
+
+    .biz-left-content,
+    .biz-left-content1 {
+      width: 100%;
+    }
+
+    .biz-right-content,
+    .biz-right-content1 {
+      display: none;
+    }
+
+    .twoFA-text-button-parent {
+      gap: 0;
+      .main-div {
+        margin-top: 0 !important;
+        transform: scale(0.85);
+
+        .two-fa-header {
+          padding: 30px 10px !important;
+        }
+
+        .header-text {
+          padding: 0 !important;
+        }
+
+        .twoFA-we-have-sent-a-verification-co-parent {
+        }
+
+        .twoFA-frame-wrapper {
+          padding-bottom: 20px !important;
+        }
+      }
+
+      .footer {
+        padding: 10px !important;
+      }
+
+      .loader-div {
+        padding: 8rem 1rem !important;
+      }
+
+      .loader-img {
+        width: 100% !important;
+      }
+      .loader-header {
+        text-align: center;
+      }
+
+      .otp-heading {
+        padding: 35px 10px !important;
+      }
+
+      .get-otp-input-div {
+        padding: 0 10px !important;
+      }
+    }
+
+    .two-fa-lost {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+
+    .acc1-frame-group,
+    .acc2-frame-group {
+      display: flex !important;
+      justify-content: space-between;
+      align-self: normal;
+      gap: 0;
+
+      .acc1-text-button-wrapper {
+        padding: 0 !important;
+      }
+    }
+
+    .acc1-frame-wrapper {
+      padding: 1.5rem 1rem !important;
+    }
+
+    .acc1-selects {
+      .acc1-basic-components-select1,
+      .acc1-basic-components-select,
+      .acc2-basic-components-select1,
+      .acc2-basic-components-select {
+        width: 100% !important;
+
+        .acc1-advanced-expense-management,
+        .acc2-advanced-expense-management {
+          width: 100% !important;
+          text-align: center !important;
+        }
+      }
+    }
+
+    .acc2-frame-parent {
+      gap: 0;
+
+      .acc2-text-button-wrapper {
+        padding: 0;
+      }
+    }
+
+    .acc2-selects {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .acc2-basic-components-select1,
+    .acc2-basic-components-select {
+      width: 100% !important;
+    }
+    .acc2-advanced-expense-management {
+      width: 100% !important;
+      text-align: center !important;
+    }
+  }
+
+  .ver-number-inputs {
+    transform: scale(0.85);
+  }
+}

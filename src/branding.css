@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --primary: 206;
+    --primary-s: 30%;
+    --primary-l: 74%;
+    --secondary: 197;
+    --button: #FFF62D;
+    --green: 155;
+    --yellow: 57;   
+    --red: 345;
+    --font: "DM Sans" !important;
+}   
+
+* {
+    font-family : var(--font)!important
+}
+
+.color-primary-70 {
+    color: hsl(var(--primary), 20%, 62%)!important;
+}
+
+.color-primary-50 {
+    color: hsl(var(--primary), var(--primary-s), var(--primary-l))!important;
+}
+
+.color-primary-40 {
+    color: hsl(var(--primary), 37%, 86%);
+}
+
+.color-primary-10 {
+    color: hsl(var(--primary), 39%, 93%);
+}
+
+.color-secondary-70 {
+    color: hsl(var(--secondary), 52%, 41%);
+}
+
+.color-secondary-50 {
+    color: hsl(var(--secondary), 54%, 54%);
+}
+
+.color-secondary-10 {
+    color: hsl(var(--secondary), 70%, 92%);
+}
+
+.color-green-70 {
+    color: hsl(var(--green), 71%, 30%);
+}
+
+.color-green-50 {
+    color: hsl(var(--green), 62%, 40%);
+}
+
+.color-green-10 {
+    color: hsl(var(--green), 43%, 92%);
+}
+
+.color-yellow-70 {
+    color: hsl(var(--yellow), 92%, 38%);
+}
+
+.color-yellow-50 {
+    color: hsl(var(--yellow), 100%, 59%);
+}
+
+.color-yellow-10 {
+    color: hsl(var(--yellow), 100%, 83%);
+}
+
+.color-red-70 {
+    color: hsl(var(--red), 46%, 48%);
+}
+
+.color-red-50 {
+    color: hsl(var(--red), 79%, 53%);
+}
+
+.color-red-10 {
+    color: hsl(var(--red), 43%, 92%);
+}
+
+.bg-primary-70 {
+    background-color: hsl(var(--primary), 20%, 62%)!important; 
+}
+
+.bg-primary-50 {
+    background-color: hsl(var(--primary), var(--primary-s), var(--primary-l))!important;
+}
+
+.bg-primary-40 {
+    background-color: hsl(var(--primary), 37%, 86%);
+}
+
+.bg-primary-10 {
+    background-color: hsl(var(--primary), 39%, 93%);
+}
+
+.bg-secondary-70 {
+    background-color: hsl(var(--secondary), 52%, 41%);
+}
+
+.bg-secondary-50 {
+    background-color: hsl(var(--secondary), 54%, 54%);
+}
+
+.bg-secondary-10 {
+    background-color: hsl(var(--secondary), 70%, 92%);
+}
+
+.bg-green-70 {
+    background-color: hsl(var(--green), 71%, 30%);
+}
+
+.bg-green-50 {
+    background-color: hsl(var(--green), 62%, 40%);
+}
+
+.bg-green-10 {
+    background-color: hsl(var(--green), 43%, 92%);
+}
+
+.bg-yellow-70 {
+    background-color: hsl(var(--yellow), 92%, 38%);
+}
+
+.bg-yellow-50 {
+    background-color: hsl(var(--yellow), 100%, 59%);
+}
+
+.bg-yellow-10 {
+    background-color: hsl(var(--yellow), 100%, 83%);
+}
+
+.bg-red-70 {
+    background-color: hsl(var(--red), 46%, 48%);
+}
+
+.bg-red-50 {
+    background-color: hsl(var(--red), 79%, 53%);
+}
+
+.bg-red-10 {
+    background-color: hsl(var(--red), 43%, 92%);
+}
+
+.dis-l {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1.5px;
+}
+
+.dis-s {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -1.5px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -1.5px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+
+.p-xl {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.p-l-b {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.p-l-m {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.p-m-b {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.p-m-m {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.p-s-m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.p-s-r {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}

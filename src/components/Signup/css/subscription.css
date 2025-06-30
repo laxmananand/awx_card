@@ -1,0 +1,177 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+:root {
+  --main-color: #3b656b;
+  --primary-color-100: #0b8fb9;
+  --primary-color-10: rgba(169, 192, 209, 0.1);
+  --secondary-color-100: #299e58;
+  --secondary-color-10: rgba(41, 158, 88, 0.1);
+  --tertiary-color-100: #f0b429;
+  --tertiary-color-10: rgba(240, 180, 41, 0.1);
+  --color-0: #ffffff;
+  --color-25: #e7ebef;
+  --color-50: rgba(219, 229, 230, 0.2);
+  --color-75: #8f9096;
+  --color-100: #0a1e2c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* fonts */
+  --font-maven-pro: "Maven Pro";
+  --font-kumbh-sans: "Kumbh Sans";
+
+  /* font sizes */
+  --font-size-base: 1rem;
+  --font-size-xl: 1.25rem;
+  --font-size-sm: 0.88rem;
+
+  /* Gaps */
+  --gap-xs: 0.75rem;
+  --gap-5xs: 0.5rem;
+  --gap-9xs: 0.25rem;
+  --gap-7xs: 0.38rem;
+  --gap-11xs: 0.13rem;
+  --gap-3xs: 0.63rem;
+  --gap-xl: 1.25rem;
+  --gap-21xl: 2.5rem;
+
+  /* Paddings */
+  --padding-xs: 0.75rem;
+  --padding-xl: 1.25rem;
+  --padding-5xs: 0.5rem;
+  --padding-base: 1rem;
+  --padding-13xl: 2rem;
+  --padding-9xs: 0.25rem;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Maven Pro", sans-serif;
+  color: var(--color-100);
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
+
+.bg-yellow10 {
+  background-color: var(--tertiary-color-10) !important;
+}
+
+.bg-yellow100 {
+  background-color: var(--tertiary-color-100) !important;
+}
+
+.yellow10 {
+  color: var(--tertiary-color-10) !important;
+}
+
+.yellow100 {
+  color: var(--tertiary-color-100) !important;
+}
+
+.bg-green10 {
+  background-color: var(--secondary-color-10) !important;
+}
+
+.bg-green100 {
+  background-color: var(--secondary-color-100) !important;
+}
+
+.green10 {
+  color: var(--secondary-color-10) !important;
+}
+
+.green100 {
+  color: var(--secondary-color-100) !important;
+}
+
+.bg-blue10,
+.blueHover:hover {
+  background-color: var(--primary-color-10) !important;
+}
+
+.bg-blue100 {
+  background-color: var(--primary-color-100) !important;
+}
+
+.blue10 {
+  color: var(--primary-color-10) !important;
+}
+
+.blue100 {
+  color: var(--primary-color-100) !important;
+}
+
+.bg-green {
+  background-color: var(--main-color) !important;
+}
+
+.grey {
+  color: var(--color-25) !important;
+}
+
+.bg-grey {
+  background-color: var(--color-25) !important;
+}
+
+button:disabled {
+  opacity: 100% !important;
+}
+
+.grey1 {
+  color: var(--color-75) !important;
+}
+
+.bg-grey1 {
+  background-color: var(--color-75) !important;
+}
+
+.bg-gainsboro {
+  background-color: var(--color-50);
+}
+
+.rounded-4 {
+  border-radius: 8px;
+}
+
+.rounded-bottom-4 {
+  border-radius: 0 0 8px 8px;
+  border-color: var(--main-color) !important;
+}
+
+.text-dark {
+  color: var(--color-100) !important;
+}
+
+.text-white {
+  color: var(--color-0) !important;
+}
+
+.bg-white,
+body {
+  background: var(--color-0) !important;
+}
+
+.bg-light {
+  background: var(--color-50) !important;
+}
+
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}

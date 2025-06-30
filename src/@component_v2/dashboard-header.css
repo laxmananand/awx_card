@@ -1,0 +1,121 @@
+:root {
+  /* fonts */
+  --paragraph-s-regular: "DM Sans";
+  --paragraph-small-regular: Inter;
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --paragraph-s-regular-size: 12px;
+  --paragraph-m-medium-size: 14px;
+  --h3-size: 24px;
+  --h1-size: 36px;
+  --h4-size: 20px;
+  --h2-size: 30px;
+  --paragraph-l-medium-size: 16px;
+
+  /* Colors */
+  --general-white: #fff;
+  --color-steelblue-100: #49a3c8;
+  --sea-70: #327e9d;
+  --color-gray-100: rgba(0, 0, 0, 0.5);
+  --color-gray-200: rgba(0, 0, 0, 0.2);
+  --general-black: #000;
+  --primary-50: #4f46e5;
+  --neutrals-90: #303030;
+  --color-lightsteelblue: #a9c0d1;
+  --sun-10: #fffba8;
+  --sun-50: #fff62d;
+  --primary-10: #e6eef4;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-5xs: 8px;
+  --gap-11xs: 2px;
+  --gap-9xs: 4px;
+  --gap-8xs: 5px;
+  --gap-5xl: 24px;
+  --gap-xs: 12px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-xl: 20px;
+  --padding-11xl: 30px;
+  --padding-9xs: 4px;
+  --padding-7xl: 26px;
+  --padding-13xl: 32px;
+
+  /* Border radiuses */
+  --br-29xl: 48px;
+  --br-5xl: 24px;
+  --br-9xs: 4px;
+  --br-10xs: 3px;
+  --br-11xl: 30px;
+  --br-13xl: 32px;
+}
+
+.useruser-profile-circle1-parent {
+  position: relative;
+  background-color: var(--sea-70);
+  width: 100%;
+  overflow: hidden;
+  font-size: var(--paragraph-s-regular-size);
+  color: var(--general-white);
+  height: 40px;
+}
+
+.useruser-profile-circle1-icon {
+  position: absolute;
+  height: 60%;
+  width: 1.67%;
+  top: 20%;
+  right: 0.69%;
+  bottom: 20%;
+  left: 97.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.5;
+  mix-blend-mode: normal;
+}
+
+.linear-iconsmaskflash-parent {
+  position: relative;
+  top: 11px;
+  /* left: calc(50% - 214.5px); */
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+.linear-iconsmaskflash {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  display: none;
+  opacity: 0.5;
+}
+
+.linear-iconsarrow-right {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+
+.linear-iconsarrow-right:hover {
+  cursor: pointer;
+}
+
+.add-account a {
+  color: white;
+}
+
+.add-account a:hover {
+  color: white;
+}

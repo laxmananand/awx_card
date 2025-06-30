@@ -1,0 +1,101 @@
+.Header-1Settings {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    width: 440px;
+  }
+  .lable-textSettings {
+    position: relative;
+    font-size: var(--font-size-base);
+  }
+
+  .custom-dialog {
+    padding: 60px 30px;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .lable-text {
+    color: #8f9096;
+  }
+  
+  .lable-text span {
+    color: black;
+  }
+  
+  .submit-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .auth-input {
+    width: 80%;
+    font-size: medium;
+  }
+  
+  .button-main {
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .swal-container {
+    background-color: #fff;
+  }
+  
+  .swal-confirm-button {
+    background-color: var(--main-color) !important;
+  }
+  
+  .swal-cancel-button {
+    background-color: rgb(162, 3, 3) !important;
+  }
+  
+  .swal-titleSettings {
+    font-size: 20px;
+    font-weight: 700;
+    color: "black" /* Change the color as desired */
+}
+
+#swal-textSettings{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.loader-overlaySettings {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(75, 68, 68, 0.349); /* semi-transparent white background */
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+  z-index: 9999; /* ensure it's above other content */
+}
+
+.loader-containerSettings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button-loaderTwo {
+  display: none;
+  margin-left: 45%;
+}
+
+#button-textTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 35%;
+}
